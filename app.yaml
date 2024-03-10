@@ -1,6 +1,5 @@
 runtime: go122
 api_version: 1
-threadsafe: true
 
 handlers:
 - url: /
