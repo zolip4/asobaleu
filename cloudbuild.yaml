@@ -1,8 +1,7 @@
 steps:
-  - name: 'golang'
-    args: ['go','mod','init','github.com/golang/glog']
+  - name: 'gcr.io/cloud-builders/go'
+    args: ['build', '-o', 'app']
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['app', 'deploy']
 options:
   logging: CLOUD_LOGGING_ONLY
-  volumes:
-    - name: go-modules
-      path: /go
