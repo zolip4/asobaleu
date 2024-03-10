@@ -1,3 +1,3 @@
-module github.com/GoogleCloudPlatform/appengine/go11x/helloworld
+module github.com/GoogleCloudPlatform/cmd/app/main
 
 go 1.21

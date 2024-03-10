@@ -4,20 +4,25 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52bd8e15-bda8-4078-a079-7b251ff44784" name="Changes" comment="fixed config">
-      <change afterPath="$PROJECT_DIR$/.idea/asobaleu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloworld.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloworld_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/index.html" beforeDir="false" />
+    <list default="true" id="52bd8e15-bda8-4078-a079-7b251ff44784" name="Changes" comment="sample app">
+      <change afterPath="$PROJECT_DIR$/cmd/app/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld_test.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../sdk/go1.21.5" />
   <component name="Git.Settings">
@@ -36,6 +41,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build github.com/GoogleCloudPlatform/appengine/go11x/helloworld.executor": "Run",
+    "Go Build.go build github.com/GoogleCloudPlatform/cmd/app/main/cmd/app.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -55,9 +63,39 @@
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\toxa\asobaleu" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\toxa\asobaleu\cmd\app" />
+      <recent name="C:\Users\toxa\asobaleu" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/GoogleCloudPlatform/cmd/app/main/cmd/app">
+    <configuration name="go build github.com/GoogleCloudPlatform/appengine/go11x/helloworld" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="asobaleu" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/GoogleCloudPlatform/appengine/go11x/helloworld" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/helloworld.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/GoogleCloudPlatform/cmd/app/main/cmd/app" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="asobaleu" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/GoogleCloudPlatform/cmd/app/main/cmd/app" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/app/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/GoogleCloudPlatform/cmd/app/main/cmd/app" />
+        <item itemvalue="Go Build.go build github.com/GoogleCloudPlatform/appengine/go11x/helloworld" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -101,7 +139,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="fixed config" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed config" />
+    <MESSAGE value="sample app" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample app" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
