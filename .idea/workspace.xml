@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52bd8e15-bda8-4078-a079-7b251ff44784" name="Changes" comment="test">
+    <list default="true" id="52bd8e15-bda8-4078-a079-7b251ff44784" name="Changes" comment="test build config">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
     </list>
@@ -140,7 +141,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;cloudbuild.yaml" />
     <MESSAGE value="added build config" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test build config" />
+    <option name="LAST_COMMIT_MESSAGE" value="test build config" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
