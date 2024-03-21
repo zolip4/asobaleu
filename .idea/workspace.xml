@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52bd8e15-bda8-4078-a079-7b251ff44784" name="Changes" comment="test build config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
   "keyToString": {
     "DefaultGoTemplateProperty": "Go File",
     "Go Build.go build github.com/GoogleCloudPlatform/appengine/go11x/helloworld.executor": "Run",
+    "Go Build.go build github.com/GoogleCloudPlatform/cloud-build-samples/golang.executor": "Run",
     "Go Build.go build github.com/GoogleCloudPlatform/cmd/app/main/cmd/app.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -64,8 +64,8 @@
       <recent name="C:\Users\toxa\asobaleu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\toxa\asobaleu\cmd\app" />
       <recent name="C:\Users\toxa\asobaleu" />
+      <recent name="C:\Users\toxa\asobaleu\cmd\app" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/GoogleCloudPlatform/cloud-build-samples/golang">
