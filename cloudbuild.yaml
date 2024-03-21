@@ -1,37 +1,10 @@
 steps:
-  # Run tests and save to file
-  - name: golang:1.20
-    entrypoint: /bin/bash
-    args: 
-      - -c
-      - |
-        go install github.com/jstemmer/go-junit-report/v2@latest
-        2>&1 go test -timeout 1m -v ./... | /go/bin/go-junit-report -set-exit-code -iocopy -out ${SHORT_SHA}_test_log.xml
-  # [END cloudbuild_go_test_yaml]
-
-  # [START cloudbuild_go_image_yaml]
-  # Docker Build
+  - name: 'gcr.io/cloud-builders/go'
+    args: ['install', '.']
+    env: ['PROJECT_ROOT=hello']
+  - name: 'gcr.io/cloud-builders/go'
+    args: ['test', 'hello']
+    env: ['PROJECT_ROOT=hello']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 
-           'us-central1-docker.pkg.dev/$PROJECT_ID/$_REPO_NAME/myimage:$SHORT_SHA', '.']
-  # [END cloudbuild_go_image_yaml]
-
-  # [START cloudbuild_go_push_yaml]
-  # Docker push to Google Artifact Registry
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/$_REPO_NAME/myimage:$SHORT_SHA']
-  # [END cloudbuild_go_push_yaml]
-  
-  # [START cloudbuild_go_deploy_yaml]
-  # Deploy to Cloud Run
-  - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['run', 'deploy', 'helloworld-${SHORT_SHA}', 
-           '--image=us-central1-docker.pkg.dev/$PROJECT_ID/$_REPO_NAME/myimage:$SHORT_SHA', 
-           '--region', 'us-central1', '--platform', 'managed']
-  # [END cloudbuild_go_deploy_yaml]
-
-# [END cloudbuild_go_logs_yaml]
-# Store images in Google Artifact Registry
-images:
-  - us-central1-docker.pkg.dev/$PROJECT_ID/$_REPO_NAME/myimage:$SHORT_SHA
-# [END cloudbuild_go_yaml]
+    args: ['build', '--tag=gcr.io/$PROJECT_ID/hello', '.']
+images: ['gcr.io/$PROJECT_ID/hello']
