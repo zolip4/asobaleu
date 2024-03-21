@@ -1,3 +1,3 @@
-module github.com/GoogleCloudPlatform/cmd/app/main
+module github.com/GoogleCloudPlatform/cloud-build-samples/golang
 
-go 1.21
+go 1.19

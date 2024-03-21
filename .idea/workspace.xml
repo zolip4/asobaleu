@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52bd8e15-bda8-4078-a079-7b251ff44784" name="Changes" comment="test build config">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="C:\Users\toxa\asobaleu" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/GoogleCloudPlatform/cmd/app/main/cmd/app">
+  <component name="RunManager" selected="Go Build.go build github.com/GoogleCloudPlatform/cloud-build-samples/golang">
     <configuration name="go build github.com/GoogleCloudPlatform/appengine/go11x/helloworld" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="asobaleu" />
       <working_directory value="$PROJECT_DIR$" />
@@ -77,6 +76,15 @@
       <package value="github.com/GoogleCloudPlatform/appengine/go11x/helloworld" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/helloworld.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/GoogleCloudPlatform/cloud-build-samples/golang" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="asobaleu" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/GoogleCloudPlatform/cloud-build-samples/golang" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build github.com/GoogleCloudPlatform/cmd/app/main/cmd/app" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -90,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/GoogleCloudPlatform/cloud-build-samples/golang" />
         <item itemvalue="Go Build.go build github.com/GoogleCloudPlatform/cmd/app/main/cmd/app" />
         <item itemvalue="Go Build.go build github.com/GoogleCloudPlatform/appengine/go11x/helloworld" />
       </list>
