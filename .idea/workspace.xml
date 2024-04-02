@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52bd8e15-bda8-4078-a079-7b251ff44784" name="Changes" comment="test build config" />
+    <list default="true" id="52bd8e15-bda8-4078-a079-7b251ff44784" name="Changes" comment="test build config 2">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-mock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cb-deploy.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cb-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cb-e2e-k8s.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cb-e2etest.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cb-unittest.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dastabase_setup.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/sed_wrapper.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devflowapp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devflowapp_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/config_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/services.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/services_mock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/services_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,31 +54,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go Build.go build github.com/GoogleCloudPlatform/appengine/go11x/helloworld.executor": "Run",
-    "Go Build.go build github.com/GoogleCloudPlatform/cloud-build-samples/golang.executor": "Run",
-    "Go Build.go build github.com/GoogleCloudPlatform/cmd/app/main/cmd/app.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/Users/toxa/asobaleu",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build github.com/GoogleCloudPlatform/appengine/go11x/helloworld.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/GoogleCloudPlatform/cloud-build-samples/golang.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/GoogleCloudPlatform/cmd/app/main/cmd/app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/toxa/asobaleu&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\toxa\asobaleu" />
@@ -92,6 +114,12 @@
       <package value="github.com/GoogleCloudPlatform/cmd/app/main/cmd/app" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/cmd/app/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -149,7 +177,8 @@
     <MESSAGE value="added build config" />
     <MESSAGE value="test" />
     <MESSAGE value="test build config" />
-    <option name="LAST_COMMIT_MESSAGE" value="test build config" />
+    <MESSAGE value="test build config 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test build config 2" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
